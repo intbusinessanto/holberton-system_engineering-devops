@@ -1,2 +1,2 @@
 #!/bin/bash
-ls --time | head 
+ls -t | head 
