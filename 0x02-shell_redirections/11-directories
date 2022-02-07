@@ -1,2 +1,2 @@
 #!/bin/bash
-find . ls -al wc --files
+find . -type d ! -path. print | wc -l
