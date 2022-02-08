@@ -1,2 +1,2 @@
 #!/bin/bash
-file $(ls /action >> PATH)
+$PATH >> /action | echo $PATH
